@@ -1,13 +1,25 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
+    
+    <style>
+    table, th, td {
+    text-align: center;
+    border: 1px solid black;
+    padding: 5px;
+    }
+    </style>
+    
     
     <link rel="stylesheet" href="main.css">
     <link rel="icon" href="favicon.ico" type="favicon"/>
     <link rel="shortcut icon" href="favicon.ico" type="favicon"/>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
-    
-    <title>Neko Studios</title>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <title>Katyusha</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -18,8 +30,7 @@
 
   </head>
   <body>
-  <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #7851a9;">
+          <nav class="navbar navbar-expand-sm navbar-dark" style="background-color: #7851a9;">
   <a class="navbar-brand" href="#">
       <img src="/favicon.ico" width="30" height="30" class="d-inline-block align-top" alt="">
     Neko Studios
@@ -30,45 +41,41 @@
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link disabled" href="#">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="Katyusha">Katyusha<span class="badge badge-info">New</span></a>
+        <a class="nav-link disabled" href="#">Mods</a>
       </li>
+
       <li class="nav-item">
-        <a class="nav-link disabled" href="/mods">Mods</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/about">About</a>
+        <a class="nav-link" href="/nekoone.github.io/mods/modders">Modders</a>
       </li>
     </ul>
   </div>
 </nav>
-<div class="alert alert-warning alert-dismissible fade show">
-  <button type="button" class="close" data-dismiss="alert">&times;</button>
-  <strong>Wanring!</strong> This Website is Still Being Built.
-</div>
+
 <div class="jumbotron">
-  <h1>Welcome to Neko Studios!</h1>
-  <p>This is a fan site for the game World of Tanks Blitz</p>
+    <h1 class="display-4">Welcome to the Mod Menu!</h1>
+    <p class="lead">You can Download Mods Here</p>
 </div>
+<h1>Rules</h1>
+<ul>
+    <li>Do Not Distribute Mods You Do Not Own</li>
+    <li>Do Not Post Illegal Mods</li>
+    <li>No NSFW Mods</li>
+    <li>No Game Breaking Mods</li>
+</ul>
 <br>
-<h4>What is This?</h4>
-<p>Neko Studios aims to make the World of Tanks community a fun and safe place for everyone. This means we are here to help out all players in learning the basics of the game, banning and reporting the use of illegal client modifications, and many more things!</p>
-<br>
-<h4>How Can We Help the Player Base?</h4>
-<p>If you ever want help on how to play a tank, how to properly play a map, strategies and maneuvers, and many more, you can contact us on Discord, Twitter, Facebook, or Instagram!</p>
-<br>
-<h4>You Mentioned Modifications?</h4>
-<p>Yes, we know modifications are still considered illegal by Wargaming, but we do not like how many people spent weeks working on mods to make the game more beautiful. We are here to release only modifications that were considered legal before they were banned. Go to our Mods page to learn more!</p>
-<br>
-<h4>I want to Contribute and Help Neko Studios!</h4>
-<p>If you want to help us, you could apply for a position! We currently have every position open!</p>
-<a href="https://github.com/NekoOne"> <i class="fab fa-github"></i></a> <a href="https://discord.gg/44d5THq"> <i class="fab fa-discord"></i></a> <a href="https://twitter.com/katyushabot"> <i class="fab fa-twitter"></i></a>
+<ul class="pagination">
+    <li class="page-item disabled"><a class="page-link" href="#">Previous</a></li>
+    <li class="page-item active"><a class="page-link" href="#">1</a></li>
+    <li class="page-item disabled"><a class="page-link" href="#">Next</a></li>
+  </ul>
+  <br>
+  <p>There Seems to be Nothing Here...</p>
+  <!-- The scrollable area -->
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
 
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
