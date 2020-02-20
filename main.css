@@ -15,8 +15,3 @@ body {
 .page-wrap {
   min-height: 100vh;
 }
-
-h1,
-p {
-  color: white
-}
