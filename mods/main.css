@@ -3,7 +3,7 @@
   height: 100vh;
   min-height: 500px;
   background-image: url('https://static-wbp-us.wgcdn.co/dcont/1.39.0/fb/image/tmb/helsing_and_dracula_2_c_592x331.jpeg');
-  background-size: fixed;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 
