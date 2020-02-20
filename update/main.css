@@ -27,7 +27,7 @@ body {
   height: 200px;
   min-height: 200px;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: fixed;
   background-position: center;
   border-color: inherit;
 }
