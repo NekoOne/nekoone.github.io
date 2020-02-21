@@ -102,3 +102,7 @@ body {
 .card-body{
   background-color: inherit;
 }
+a[href="https://blitzhangar.com/en/tank/m4-fl10"],
+a[href="https://youtu.be/xz01TDxh-H8"] {
+  color: lightgreen;
+}
