@@ -12,10 +12,42 @@ body {
   background: #dedede;
 }
 
+.content {
+  padding: 25px;
+  background-color: white;
+  color: black;
+  font-size: relative;
+}
+
+/* Dark Mode */
+.switch {
+  align-self: flex-end;
+  margin: 15px;
+}
+
+.inner-switch {
+  display: inline-block;
+  cursor: pointer;
+  border: 1px solid #555;
+  border-radius: 20px;
+  width: 50px;
+  text-align: center;
+  font-size: 16px;
+  padding: 3px;
+  margin-left: 5px;
+}
+.dark,
+.dark  {
+    background-color: #222;
+    color: #e6e6e6;
+    border-color: #e6e6e6;
+}
+
 .page-wrap {
   min-height: 100vh;
 }
 
+/* Cards */
 .card-custom {
   overflow: hidden;
   min-height: 450px;
@@ -58,4 +90,15 @@ body {
   left: 1.25rem;
   width: 100px;
   height: 100px;
+}
+
+.card-text {
+  color: green;
+}
+
+.card-title {
+  color: darkgreen;
+}
+.card-body{
+  background-color: inherit;
 }
